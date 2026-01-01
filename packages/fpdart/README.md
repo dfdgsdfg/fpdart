@@ -134,7 +134,7 @@ Interested in what `fpdart` is and how it came to be?
 ```yaml
 # pubspec.yaml
 dependencies:
-  fpdart: ^1.2.0
+  fpdart: ^1.3.0
 ```
 
 ## ✨ Examples
@@ -510,6 +510,7 @@ In general, **any contribution or feedback is welcome** (and encouraged!).
 
 ## 📃 Versioning
 
+- v1.3.0 - 1 January 2026
 - v1.2.0 - 29 October 2025
 - v1.1.1 - 7 November 2024
 - v1.1.0 - 13 August 2023

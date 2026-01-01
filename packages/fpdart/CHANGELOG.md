@@ -1,3 +1,8 @@
+## v1.3.0 - 1 January 2026
+- Added `sequence` and `traverse` extension methods on `Iterable` for all types (`Option`, `Either`, `IO`, `IOOption`, `IOEither`, `Task`, `TaskOption`, `TaskEither`)
+- Added `sequence` and `traverse` extension methods on Records (tuples) for all types, supporting records with 2-9 elements
+- For async types (`Task`, `TaskOption`, `TaskEither`): includes both parallel (`sequence`, `traverse`) and sequential (`sequenceSeq`, `traverseSeq`) variants
+
 ## v1.2.0 - 29 October 2025
 - Added `toTaskOptionFlat`, `toTaskEitherFlat`, `fromTaskFlatten` to `TaskOption` and `TaskEither`
 - Added new iterable extension functions `singleOption`, `elementAtOption`, `singleWhereOption`, `lastWhereOption`
